@@ -29,7 +29,12 @@ public class ProdutosDAO {
         
         
     }
-    
+    public void venderProduto() {
+    System.out.println("Produto vendido!");
+}
+    public void listarProdutosVendidos() {
+    System.out.println("Listando produtos vendidos...");
+}
     public ArrayList<ProdutosDTO> listarProdutos(){
         
         return listagem;
