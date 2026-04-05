@@ -18,6 +18,7 @@ public class listagemVIEW extends javax.swing.JFrame {
      */
     public listagemVIEW() {
         initComponents();
+        System.out.println("Listagem carregada!");
         listarProdutos();
     }
 
